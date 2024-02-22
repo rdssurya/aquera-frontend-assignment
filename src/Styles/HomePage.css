@@ -1,0 +1,70 @@
+.buttons-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: large;
+    margin-top: 20px;
+}
+
+button{
+    width: 70px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: rgb(89, 186, 235);
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}
+
+.homepage-content{
+    display: flex;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.planets-names{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 20%;
+    font-size: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+.planets-names:hover{
+    background-color: rgb(205, 243, 243);
+}
+
+.planet-name:hover{
+    cursor: pointer;
+    background-color: rgb(122, 141, 183);
+}
+
+.loading-msg{
+    padding-top: 50px;
+    text-align: center;
+    font-size: larger;
+    color: blueviolet;
+}
+
+@media screen and (max-width: 550px){
+    .homepage-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .planets-names{
+        width: 60%;
+    }
+}

@@ -1,0 +1,27 @@
+.resident-wrapper{
+    width: 30%;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 13px;
+    border: 0.5px solid rgb(134, 134, 240);
+    border-radius: 5px;
+}
+
+.resident-wrapper:hover{
+    cursor: pointer;
+    background-color: rgb(122, 141, 183);
+}
+
+@media screen and (max-width: 800px){
+    .resident-wrapper{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .resident-wrapper{
+        width: 45%;
+    }
+}

@@ -1,0 +1,32 @@
+.card-container{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.card-container:hover{
+    background-color: rgb(205, 243, 243);
+    cursor: pointer;
+}
+
+.residents-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 550px){
+    .card-container{
+        margin: auto;
+        width: 90%;
+    }
+}
