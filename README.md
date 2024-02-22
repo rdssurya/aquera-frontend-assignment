@@ -1,5 +1,7 @@
 # Getting Started with Aquera-FrontEnd-Assignment
 
+Live Site: https://rdssurya-aquera-assignment.netlify.app
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -30,4 +32,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Deployment
 
-I used Netlify to host this application. Please find the live link here: 
+I used Netlify to host this application. Please find the live link here: https://rdssurya-aquera-assignment.netlify.app
